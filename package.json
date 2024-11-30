@@ -9,13 +9,16 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google-cloud/text-to-speech": "^5.5.0",
     "@google/generative-ai": "^0.21.0",
     "dotenv": "^16.4.5",
     "fluent-ffmpeg": "^2.1.3",
     "fs": "^0.0.1-security",
-    "node-fetch": "^3.3.2",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.7.0",
     "node-telegram-bot-api": "^0.66.0",
     "path": "^0.12.7",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "util": "^0.12.5"
   }
 }
